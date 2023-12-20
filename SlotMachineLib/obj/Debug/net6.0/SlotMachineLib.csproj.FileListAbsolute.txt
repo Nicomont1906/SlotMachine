@@ -1,0 +1,12 @@
+C:\Users\eneam\Desktop\SlotMachineLib\bin\Debug\net6.0\SlotMachineLib.deps.json
+C:\Users\eneam\Desktop\SlotMachineLib\bin\Debug\net6.0\SlotMachineLib.dll
+C:\Users\eneam\Desktop\SlotMachineLib\bin\Debug\net6.0\SlotMachineLib.pdb
+C:\Users\eneam\Desktop\SlotMachineLib\obj\Debug\net6.0\SlotMachineLib.csproj.AssemblyReference.cache
+C:\Users\eneam\Desktop\SlotMachineLib\obj\Debug\net6.0\SlotMachineLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eneam\Desktop\SlotMachineLib\obj\Debug\net6.0\SlotMachineLib.AssemblyInfoInputs.cache
+C:\Users\eneam\Desktop\SlotMachineLib\obj\Debug\net6.0\SlotMachineLib.AssemblyInfo.cs
+C:\Users\eneam\Desktop\SlotMachineLib\obj\Debug\net6.0\SlotMachineLib.csproj.CoreCompileInputs.cache
+C:\Users\eneam\Desktop\SlotMachineLib\obj\Debug\net6.0\SlotMachineLib.dll
+C:\Users\eneam\Desktop\SlotMachineLib\obj\Debug\net6.0\refint\SlotMachineLib.dll
+C:\Users\eneam\Desktop\SlotMachineLib\obj\Debug\net6.0\SlotMachineLib.pdb
+C:\Users\eneam\Desktop\SlotMachineLib\obj\Debug\net6.0\ref\SlotMachineLib.dll
