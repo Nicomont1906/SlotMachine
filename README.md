@@ -5,6 +5,9 @@ Questo progetto è stato suddiviso in 3 diversi progettazioni:
 - Realizzare un programma WPF che usa la libreria di classi
 - Realizzare un programma Console che usa la stessa libreria di classi
 
+<img src="https://github.com/Nicomont1906/SlotMachine/assets/127590621/3cf12f36-af38-48ff-8252-c12db867469c">
+"
+
   MainWindowXaml.cs
   ```
   private void checkBoxStopSimb1_Checked(object sender, RoutedEventArgs e)
