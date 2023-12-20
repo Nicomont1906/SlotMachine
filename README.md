@@ -48,3 +48,49 @@ Aggiorna le caselle di testo con i simboli attualmente visualizzati sulla slot m
 Aggiorna una casella di testo con l'informazione sulla vincita corrente.
 Aggiorna una casella di testo con l'informazione sui crediti rimanenti nella slot machine.
 Se il saldo dei crediti è zero, nasconde il pulsante "Spin" e mostra un messaggio che indica che i crediti sono esauriti.
+
+Andiamo poi a creare un nuovo progetto con una libreria di classi C# che collegheremo come riferimento al progetto principale. All'interno scriviamo diversi metodi, tra i più importanti:
+```
+public void Gioca()
+        {
+            EseguiPartita();
+            NumGiocata++;
+
+            if (NumGiocata == 3)
+            {
+                StopSimbolo1 = false;
+                StopSimbolo2 = false;
+                StopSimbolo3 = false;
+                NumGiocata = 0;
+                RiscattaVincite();
+            }
+        }
+```
+ questo metodo rappresenta il processo di giocata nella slot machine, che incrementa il numero di giocate e permette di riscattare le vincite. 
+
+ ```
+ private void EseguiPartita()
+        {
+            moneteVinte = 0;
+
+            if (!StopSimbolo1) Simbolo1 = GetRandomLetter();
+            if (!StopSimbolo2) Simbolo2 = GetRandomLetter();
+            if (!StopSimbolo3) Simbolo3 = GetRandomLetter();
+
+            ValutaPartita();
+        }
+```
+questo metodo ci permette di Eseguire la partita generando in maniera random le lettere della Slot 
+Infine andiamo ad aggiungere dei metodi che gestiscono le varie vincite come questo:
+```
+      private void Jackpot()
+        {
+            if (Simbolo1 == Simbolo2 && Simbolo2 == Simbolo3)
+            {
+                moneteVinte += PosizioneInOrdineAlfabetico(Simbolo1);
+            }
+        }
+```
+
+Infine andiamo ad aggiungere un progetto Console che usa la stessa libreria di classi
+
